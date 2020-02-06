@@ -4,7 +4,7 @@ def oxford_comma(array)
   elsif array.size == 2
     return array.join(" and ")
   else
-    return array[0..-2].join(', ') + ", and " + array[-1] #puts commas between first and second                                                          #element then puts "," between them then ", and " between                                      # "," between them then ", and " between
-                                                          # the last element and th
-  end
+    return array[0..-2].join(', ') + ", and " + array[-1] #puts commas between first and second to                                                       #last element then puts ", and" between                                                        #second to last and last element
+                                                          #join is used to convert array to string
+   end
 end
